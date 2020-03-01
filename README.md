@@ -18,7 +18,7 @@
   1. 安装 node.js mysql 环境，并将此项目所有文件下载到服务器任意目录上面；注：node.js版本 >= 8.9.0 mysql版本 >= 5.5
 
   2. 下载项目 [点击下载](http://kkpay.goodqp.com/)，解压并进入项目根目录,找到 config/config.default.js 文件按照提示修改所需配置保存，然后进入database/config.json 文件修改 development 数据库配置信息； 注： 数据库需要手动创建,字符集utf-8排序规则utf8_general_ci
-
+ 
   3. 在项目根目录中打开命令行， 执行 npm install 安装依赖文件 
 
   4. 在项目根目录中打开命令行， 执行 npx sequelize db:migrate 创建数据表结构； 注： 是npx 不是 npm 
